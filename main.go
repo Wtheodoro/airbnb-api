@@ -209,7 +209,7 @@ func getExploreNearby(w http.ResponseWriter, r *http.Request) {
 }
 
 func getHomePage(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Try those endpoints: /api/explorePlaces")
+	fmt.Fprintf(w, "Try those endpoints: /api/explorePlaces. /api/explorePlaces, /api/liveAnywhere")
 }
 
 func main() {
